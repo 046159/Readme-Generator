@@ -23,14 +23,14 @@ const questions = [
     },
     {
         type: 'list',
-        name: 'usage',
-        message: 'Usage:',
+        name: 'license',
+        message: 'License:',
         choices: ['Academic Free License v3.0', 'European Union Public License 1.1', 'MIT']
     },
     {
         type: 'input',
-        name: 'license',
-        message: 'License:',
+        name: 'usage',
+        message: 'Usage:',
     },
     {
         type: 'input',
@@ -58,18 +58,18 @@ const questions = [
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, function (err) {
         if (err) throw err;
-        console.log("File written.");
+        console.log(`\nFile written successfully.`);
     })
 }
 
 /* --------------------- Function to initialise program --------------------- */
 function init() {
+    console.log(`\n`);
     inquirer
         .prompt(questions)
         .then((data) => {
             const markDownData = generateMarkdown(data);
-            console.log(markDownData);
-            writeToFile("./README.md",markDownData);
+            writeToFile("./README.md", markDownData);
         })
 }
 
