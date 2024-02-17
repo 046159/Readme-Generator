@@ -1,6 +1,6 @@
+[![License: AFL 3.0](https://img.shields.io/badge/License-AFL%203.0-blue.svg?style=plastic)](https://opensource.org/licenses/AFL-3.0)
 
-
-# Sample app
+# ad
 
 ## Table of Contents
 
@@ -22,7 +22,7 @@
 
 ## Description
 
-Desc.
+ad
 
 ## Screenshot
 
@@ -30,15 +30,15 @@ Desc.
 
 ## Installation
 
-adadad
+ad
 
 ## Usage
 
-ada
+ad
 
 ## License
 
-This application is covered under the following license: **MIT**.
+This application is covered under the following license: **Academic Free License v3.0**.
 
 ## Contributing
 
