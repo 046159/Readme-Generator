@@ -1,6 +1,5 @@
 /* ---------------------------- Define constants ---------------------------- */
 const fs = require("fs"); // Native to Node as a library, and required for access the file system
-const path = require('path'); // Native to Node as a library - optional, may be useful but don't really need it - delete line if not used
 const inquirer = require("inquirer"); // Needed to take input from the user on the command line
 const generateMarkdown = require("./utils/generateMarkdown"); // This separate JS file generates the actual markdown for the Readme file
 
@@ -9,17 +8,17 @@ const questions = [
     {
         type: 'input',
         name: 'title',
-        message: 'Title:',
+        message: 'Enter the title of the application:',
     },
     {
         type: 'input',
         name: 'description',
-        message: 'Description:',
+        message: 'Enter a short description of the application:',
     },
     {
         type: 'input',
         name: 'installation',
-        message: 'Installation:',
+        message: 'Describe steps needed to install the application:',
     },
     {
         type: 'list',
@@ -51,6 +50,18 @@ const questions = [
         type: 'input',
         name: 'email',
         message: 'Email:',
+    },
+    {
+        type: 'checkbox',
+        name: 'visualType',
+        message: 'Do you want to attach a screenshot or a video:',
+        choices: ["Screenshot", "Video"],
+        default: ["Screenshot"],
+    },
+    {
+        type: 'input',
+        name: 'imagePath',
+        message: 'Location of visual (e.g. ./assets/images/<file>.png):'
     }
 ];
 
@@ -58,13 +69,13 @@ const questions = [
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, function (err) {
         if (err) throw err;
-        console.log(`\nFile written successfully.`);
+        console.log(`\nFile written successfully.\n`);
     })
 }
 
 /* --------------------- Function to initialise program --------------------- */
 function init() {
-    console.log(`\n`);
+    console.log(`\nWelcome to the Readme Generator. Please answer the questions below to automatically generate the README.md file.\n`);
     inquirer
         .prompt(questions)
         .then((data) => {
@@ -74,4 +85,5 @@ function init() {
 }
 
 /* ------------------- Function call to initialise program ------------------ */
+console.clear();
 init();
