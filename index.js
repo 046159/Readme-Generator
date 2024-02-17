@@ -80,7 +80,7 @@ function init() {
         .prompt(questions)
         .then((data) => {
             const markDownData = generateMarkdown(data);
-            writeToFile("./README.md", markDownData);
+            writeToFile("./sampleREADME.md", markDownData);
         })
 }
 
