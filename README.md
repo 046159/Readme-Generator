@@ -1,8 +1,10 @@
-# My title
+[![License: AFL 3.0](https://img.shields.io/badge/License-AFL%203.0-blue.svg)](https://opensource.org/licenses/AFL-3.0)
+
+# ad
 
 # Description
 
-My desc.
+ad
 
 # Table of Contents
 
@@ -22,24 +24,24 @@ My desc.
 
 # Installation
 
-a
+ad
 
 # Usage
 
-b
+Academic Free License v3.0
 
 # License
 
-c
+ad
 
 # Contributing
 
-d
+ad
 
 # Tests
 
-e
+ad
 
 # Questions
 
-f
+a

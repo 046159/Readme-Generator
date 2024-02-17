@@ -22,9 +22,10 @@ const questions = [
         message: 'Installation:',
     },
     {
-        type: 'input',
+        type: 'list',
         name: 'usage',
         message: 'Usage:',
+        choices: ['Academic Free License v3.0', 'European Union Public License 1.1', 'MIT']
     },
     {
         type: 'input',
