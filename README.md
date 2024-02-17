@@ -1,12 +1,12 @@
-[![License: AFL 3.0](https://img.shields.io/badge/License-AFL%203.0-blue.svg)](https://opensource.org/licenses/AFL-3.0)
 
-# asd
 
-# Description
+# asdf
 
-asd
+## Description
 
-# Table of Contents
+asf
+
+## Table of Contents
 
 [Description](#description)
 
@@ -22,26 +22,26 @@ asd
 
 [Questions](#questions)
 
-# Installation
+## Installation
 
-asd
+asf
 
-# Usage
+## Usage
 
-Academic Free License v3.0
+asdfa
 
-# License
+## License
 
-asd
+This application is covered under the following license: **Academic Free License v3.0**.
 
-# Contributing
+## Contributing
 
-asd
+asf
 
-# Tests
+## Tests
 
-ad
+asf
 
-# Questions
+## Questions
 
-Please contact me via email ad if you have any questions. You can also find my portfolio of work on [Github](https://github.com/ad).
+Please contact me via email asf if you have any questions. You can also find my portfolio of work on [Github](https://github.com/af).
