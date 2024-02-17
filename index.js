@@ -18,11 +18,6 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'toc',
-        message: 'Table of Contents:',
-    },
-    {
-        type: 'input',
         name: 'installation',
         message: 'Installation:',
     },
@@ -53,8 +48,12 @@ const questions = [
     }
 ];
 
-// function to write README file
+/* ---------------------- Function to write README file --------------------- */
 function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, function (err) {
+        if (err) throw err;
+        console.log("File written.");
+    })
 }
 
 /* --------------------- Function to initialise program --------------------- */
@@ -62,17 +61,9 @@ function init() {
     inquirer
         .prompt(questions)
         .then((data) => {
-            console.log(data.title);
-            console.log(data.description);
-            console.log(data.toc);
-            console.log(data.installation);
-            console.log(data.usage);
-            console.log(data.license);
-            console.log(data.contributing);
-            console.log(data.tests);
-            console.log(data.questions);
             const markDownData = generateMarkdown(data);
             console.log(markDownData);
+            writeToFile("./README.md",markDownData);
         })
 }
 
