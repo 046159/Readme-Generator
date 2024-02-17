@@ -1,4 +1,4 @@
-[![License: AFL 3.0](https://img.shields.io/badge/License-AFL%203.0-blue.svg?style=plastic)](https://opensource.org/licenses/AFL-3.0)
+[![License: AFL 3.0](https://img.shields.io/badge/License-AFL%203.0-blue.svg)](https://opensource.org/licenses/AFL-3.0)
 
 # ad
 
@@ -26,7 +26,7 @@ ad
 
 ## Screenshot
 
-![Screenshot](ad)
+![Screenshot](./assets/images/temp.png)
 
 ## Installation
 

@@ -2,7 +2,7 @@
 function generateMarkdown(data) {
 
     /* ------------- Setup the appropriate license badge to display ------------- */
-    var badge = "";
+    let badge = "";
     switch (data.license) {
         case "Academic Free License v3.0":
             badge = "[![License: AFL 3.0](https://img.shields.io/badge/License-AFL%203.0-blue.svg)](https://opensource.org/licenses/AFL-3.0)"
@@ -17,9 +17,12 @@ function generateMarkdown(data) {
             break;
     }
 
+    /* -------- Setup heading and hyperlink for screenshot/video section -------- */
     const visualHeading = data.visualType[0] // This is the option the user selected and will be the section heading
     const visualHeadingHyperLink = visualHeading.toLowerCase();
 
+
+    /* ------------ Setup string to display in the Questions section ------------ */
     const questionString = `Please contact me via email ${data.email} if you have any questions. You can also find my portfolio of work on [Github](https://github.com/${data.githubName})`;
 
     /* ---------- Return the markdown text that will be written to file --------- */
@@ -43,4 +46,6 @@ function generateMarkdown(data) {
     `## Tests\n\n${data.tests}\n\n` +
     `## Questions\n\n${questionString}.`;
 }
+
+/* ------------- Make the data available to the calling function ------------ */
 module.exports = generateMarkdown;

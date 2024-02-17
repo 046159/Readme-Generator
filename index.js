@@ -8,17 +8,17 @@ const questions = [
     {
         type: 'input',
         name: 'title',
-        message: 'Enter the title of the application:',
+        message: 'Title:',
     },
     {
         type: 'input',
         name: 'description',
-        message: 'Enter a short description of the application:',
+        message: 'Description:',
     },
     {
         type: 'input',
         name: 'installation',
-        message: 'Describe steps needed to install the application:',
+        message: 'Installation:',
     },
     {
         type: 'list',
