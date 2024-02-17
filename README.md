@@ -1,6 +1,6 @@
 
 
-# ad
+# RM Gen
 
 ## Table of Contents
 
@@ -26,7 +26,7 @@ ad
 
 ## Screenshot
 
-![Screenshot](ad)
+![Screenshot](./assets/images/temp.png)
 
 ## Installation
 
@@ -50,4 +50,4 @@ ad
 
 ## Questions
 
-Please contact me via email ad if you have any questions. You can also find my portfolio of work on [Github](https://github.com/ad)".
+Please contact me via email ad if you have any questions. You can also find my portfolio of work on [Github](https://github.com/ad).
