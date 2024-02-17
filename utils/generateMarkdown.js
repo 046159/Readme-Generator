@@ -3,7 +3,7 @@ function generateMarkdown(data) {
 
     /* ------------- Setup the appropriate license badge to display ------------- */
     var badge = "";
-    switch (data.usage) {
+    switch (data.license) {
         case "Academic Free License v3.0":
             badge = "[![License: AFL 3.0](https://img.shields.io/badge/License-AFL%203.0-blue.svg)](https://opensource.org/licenses/AFL-3.0)"
             break;
