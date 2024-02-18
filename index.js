@@ -75,7 +75,7 @@ function writeToFile(fileName, data) {
 
 /* --------------------- Function to initialise program --------------------- */
 function init() {
-    console.log(`\nWelcome to the Readme Generator. Please answer the questions below to automatically generate the README.md file.\n`);
+    console.log(`\nWelcome to the Readme Generator. Please answer the questions below to automatically generate the Readme file.\n`);
     inquirer
         .prompt(questions)
         .then((data) => {

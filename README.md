@@ -28,7 +28,7 @@ This application creates a Readme file based on input provided by the user. Node
 
 ## Screenshot
 
-![Screenshot](./assets/images/temp.png)
+![Screenshot](./assets/images/screenshot.png)
 
 ## Installation
 
@@ -77,6 +77,7 @@ This application is covered under the following license: **Academic Free License
 - https://www.geeksforgeeks.org/node-js-fs-readfilesync-method/
 - https://www.w3schools.com/jsref/jsref_try_catch.asp
 - https://stackoverflow.com/questions/11868512/linking-using-relative-path-on-github-readme-md
+- https://www.geeksforgeeks.org/how-to-add-videos-on-readme-md-file-in-a-github-repository/
 
 
 ## Questions
