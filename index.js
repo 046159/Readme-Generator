@@ -80,8 +80,22 @@ function init() {
         .prompt(questions)
         .then((data) => {
             const markDownData = generateMarkdown(data);
-            writeToFile("./sampleREADME.md", markDownData);
+            const outputFile = getOutputFilename();
+            writeToFile(outputFile, markDownData);
         })
+}
+
+/* ------------------- Function to get name of output file ------------------ */
+function getOutputFilename() {
+    try {
+        const settingsData = fs.readFileSync(".\\assets\\config\\settings.json", "utf8"); // Need this to be synchronous read
+        const settingsObject = JSON.parse(settingsData);
+        const outputFile = settingsObject.outputFile;
+        return outputFile;
+    } catch (err) {
+        console.log(err);
+        return null;
+    }
 }
 
 /* ------------------- Function call to initialise program ------------------ */
