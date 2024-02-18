@@ -26,7 +26,7 @@ This app automatically generates a Readme file, making use of the Inquiry Node p
 
 ## Screenshot
 
-![Screenshot](./assets/images/temp.png)
+![Screenshot](./assets/images/screenshot.png)
 
 ## Installation
 
