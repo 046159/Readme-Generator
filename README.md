@@ -6,7 +6,7 @@
 
 [Description](#description)
 
-[Screenshot](#screenshot)
+[Video](#video)
 
 [Installation](#installation)
 
@@ -28,7 +28,7 @@ This application creates a Readme file based on input provided by the user. Node
 
 ## Video
 
-Click on the image to play the video. Note: this will open directly in YouTube. Alternatively, you can download and play the video in the assets\video folder.
+Click on the image below to play the video. Note: this will open directly in YouTube. Alternatively, you can download and play the video in the assets\video folder.
 
 [![Watch the video](./assets/images/screenshot.png)](https://youtu.be/IAIQ-gJUBt4)
 
