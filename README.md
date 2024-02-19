@@ -51,7 +51,7 @@ Click on the image below to play the video. Note: this will open directly in You
 
 ## License
 
-This application is covered under the following license: **Academic Free License v3.0**.
+This application is covered under the following license: **MIT**.
 
 ## Contributing
 
